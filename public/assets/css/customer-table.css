@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+main {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.new-table-sec .table-start-here tbody .last-tr-table td{
+    color: #fff !important;
+font-family: Poppins;
+font-weight: 600 !important ;
+font-size: 14px;
+}
+.new-table-sec .table-start-here tbody .last-tr-table{
+    background: #990000;
+
+}
+.new-table-sec .table-start-here thead .top-bar-table th{
+    width: 8%;
+    height: 25px;
+        border: 1px solid #000;
+        text-align: center;
+}
+.new-table-sec .table-start-here thead .top-bar-table th:last-child{
+    width: 60%;
+}
+.new-table-sec .table-start-here thead .top-bar-table{
+background: #990000;
+color: #fff;
+font-family: Poppins;
+font-weight: 500;
+font-size: 14px;
+}
+.new-table-sec .table-start-here .top-tbody .clickable{
+    cursor: pointer;
+}
+.new-table-sec .table-start-here .top-tbody .clickable:hover{
+    background-color: #80808061;
+}
+.new-table-sec .table-start-here .top-tbody tr td{
+	border: 1px solid #000;
+	color: #000;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: center;
+
+}
+.undertable{
+    margin: 0 50px;
+    padding: 10px;
+}
+.undertable .buttons{
+    display: flex;justify-content: end;
+}
+.undertable .buttons a{
+    margin: 0 0 0 15px;
+}
+.undertable table thead tr{
+    background-color: #efefef;
+}
+.undertable table{
+    margin: 20px 0 0;
+}
+.under-table-tr-set td{
+
+}
+.under-table-tr-set td{
+    text-align: right !important;
+    font-weight: 600 !important;
+}
+.under-table-tr-set{
+     background-color: #efefef;
+}
+.undertable table thead tr th {
+            border: 1px solid #000;
+        color: #000;
+font-family: Poppins;
+font-weight: 500;
+font-size: 14px;
+    text-align: righ;
+}
+.adjust-table-none{
+    display: none;
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1366px) and (max-width: 1444px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {}
